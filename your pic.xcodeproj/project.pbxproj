@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8BFF621E22E5DBC4006D2CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF621D22E5DBC4006D2CB2 /* AppDelegate.swift */; };
 		8BFF622022E5DBC4006D2CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF621F22E5DBC4006D2CB2 /* ViewController.swift */; };
-		8BFF622322E5DBC4006D2CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF622122E5DBC4006D2CB2 /* Main.storyboard */; };
+		8BFF622322E5DBC4006D2CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF622122E5DBC4006D2CB2 /* Main.storyboard */; settings = {ASSET_TAGS = (pic, ); }; };
 		8BFF622522E5DBC6006D2CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF622422E5DBC6006D2CB2 /* Assets.xcassets */; };
 		8BFF622822E5DBC6006D2CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF622622E5DBC6006D2CB2 /* LaunchScreen.storyboard */; };
 		8BFF623322E5DBC6006D2CB2 /* your_picTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF623222E5DBC6006D2CB2 /* your_picTests.swift */; };
@@ -187,6 +187,9 @@
 		8BFF621222E5DBC4006D2CB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					pic,
+				);
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = esperan;
